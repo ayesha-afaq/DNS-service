@@ -1,0 +1,7 @@
+# name                 type   value             ttl
+www.campus.com         A      192.168.1.99      60
+mail.campus.com        A      192.168.1.60      120
+short.campus.com       A      192.168.1.70      5
+long.campus.com        A      192.168.1.80      300
+portal.campus.com      CNAME  www.campus.com    60
+student.campus.com     CNAME  www.campus.com    90
