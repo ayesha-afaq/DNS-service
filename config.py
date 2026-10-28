@@ -4,10 +4,10 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-AUTH_IP = "127.0.0.1"        # Machine 3 (authoritative server)
+AUTH_IP = "10.73.117.86"        # Machine 3 (authoritative server)
 AUTH_PORT = 5300
 
-RESOLVER_IP = "127.0.0.1"    # Machine 2 (resolver)
+RESOLVER_IP = "10.73.117.196"    # Machine 2 (resolver)
 RESOLVER_PORT = 5301
 
 BUFFER_SIZE = 4096           # max bytes read per datagram
