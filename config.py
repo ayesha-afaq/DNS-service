@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 AUTH_IP = "10.148.157.86"        # Machine 3 (authoritative server)
 AUTH_PORT = 5300
 
-RESOLVER_IP = " 10.148.157.139"    # Machine 2 (resolver)
+RESOLVER_IP = "10.148.157.139"    # Machine 2 (resolver)
 RESOLVER_PORT = 5301
 
 BUFFER_SIZE = 4096           # max bytes read per datagram
